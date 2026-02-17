@@ -11,7 +11,7 @@ class HomeView extends StatelessWidget {
         backgroundColor: Colors.blue[600],
       ),
       body: Center(
-        child: Text('Learning CI/CD Pipelines'),
+        child: Text('Learning CI/CD Pipelines', style: TextStyle(fontSize: 20),),
       ),
     );
   }
